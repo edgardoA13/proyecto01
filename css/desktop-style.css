@@ -1,0 +1,906 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Barlow', sans-serif;
+}
+ul{
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+/***********************HEADER**************************/
+.menu img{
+	width: 150px;	
+}
+header{
+	max-width: 100%;
+	height: 100vh;
+	background-image: url("../images/desktop/image-header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+header .container{
+	max-width: 1280px;
+	width: 95%;
+	margin: auto;
+}
+.menu{
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu ul li{	
+	margin-right: 40px;
+	color: white;
+}
+.menu ul li:hover{
+	text-decoration: underline 2px white;
+	cursor: pointer;
+}
+.btn-li{
+	text-decoration: none !important;
+	margin-top: 0;
+	margin-left: 20px;
+	margin-right: 0px !important;
+	padding: 10px 20px 10px 20px;	
+	border-radius: 20px;
+	color: black !important;
+	background-color: white;
+}
+.btn-li:hover{
+	text-decoration: none !important;
+	color: white !important;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.container-orange{
+	text-align: center;
+}
+.container-orange h1{	
+	cursor: default;
+	color: white;
+	font-size: 60px;
+	line-height: 200px;
+	font-family: 'Fraunces', serif;
+	letter-spacing: 4px;
+	margin-bottom: 0;
+}
+/***********************TRANSFORM YOUR BRAND**************************/
+.transform .container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;	
+}
+.transform .container article{
+	margin: auto;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+.transform .container h2{
+	font-family: 'Fraunces', serif;
+	font-size: 40px;
+	color: hsl(212, 27%, 19%);
+}
+.transform .container p{
+	padding-bottom: 50px;
+	color: hsl(213, 9%, 39%);
+}
+.transform .container img{
+	order: 1;
+}
+.desktop{		
+	width: 100%;
+}
+.mobile{
+		display: none;
+}
+.mobile-transform{
+	display: none;
+}
+.transform .container a{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 17px;
+}
+.transform .container a:hover{
+	text-decoration: underline 4px hsl(51, 100%, 49%);
+}
+/***********************RIGHT AUDIENCE**************************/
+.audience .container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;	
+}
+.audience .container article{
+	margin: auto;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+.audience .container h2{
+	font-family: 'Fraunces', serif;
+	font-size: 40px;
+	color: hsl(212, 27%, 19%);
+}
+.audience .container p{
+	padding-bottom: 50px;
+	color: hsl(213, 9%, 39%);
+}
+.audience .container img{
+	width: 100%;
+}
+.audience .container a{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 17px;
+}
+.audience .container a:hover{
+	text-decoration: underline 4px hsl(7, 99%, 70%);
+}
+/***********************GRAPHIC DESIGN & PHOTOGRAPHY**************************/
+.design-photo{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.container-desing{
+	background-image: url("../images/desktop/image-graphic-design.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 571px;
+	display: flex;
+	padding-bottom: 20px;
+}
+.container-photo{
+	background-image: url("../images/desktop/image-photography.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 571px;
+	display: flex;
+	padding-bottom: 20px;
+}
+.container-desing article, .container-photo article{	
+	margin-top: 350px;
+	text-align: center;
+}
+.container-desing p, .container-photo p{
+	margin: 30px 170px 0px 170px;	
+}
+.container-desing h3, .container-photo h3{
+	margin: 0;
+	font-size: 30px;
+	font-family: 'Fraunces', serif;
+}
+.container-desing h3, .container-desing p{
+	color: hsl(167, 40%, 24%);
+}
+.container-photo h3, .container-photo p{
+	color: hsl(198, 62%, 26%);
+}
+/***********************CLIENTS TESTIMONIALS**************************/
+.testimonials{
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+.testimonials .title{
+	margin: 0;
+	text-align: center;
+	font-family: 'Fraunces', serif;
+	margin-bottom: 90px;
+	letter-spacing: 5px;
+	font-size: 20px;
+	color: hsl(210, 4%, 67%);
+}
+.testimonials .container{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	width: 80%;
+	margin: auto;	
+}
+.testimonials .container article{
+	text-align: center;
+}
+.testimonials .container img{
+	width: 70px;
+	border-radius: 50%;	
+}
+.testimonials .container p{
+	height: 100px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	padding: 0px 25px;
+	color: hsl(213, 9%, 39%);
+}
+.testimonials .container h4{
+	margin: 0;
+	font-size: 17px;
+	margin-bottom: 10px;
+	font-family: 'Fraunces', serif;
+	color: hsl(212, 27%, 19%);
+}
+.testimonials .container span{
+	font-size: 15px;
+	color: hsl(210, 4%, 67%);
+}
+/***********************COLLAGE**************************/
+.collage .container{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+.collage .container img{
+	width: 100%;
+}
+/***********************FOOTER**************************/
+footer{
+	background-color: #93d4c4;
+	padding: 70px 0px 70px 0px;
+	text-align: center;	
+}
+.container-footer p{
+	margin: 0px 0px 40px 0px;
+	font-size: 40px;
+	color: #347a6a;
+	font-weight: bold;
+}
+.about{
+	width: 500px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	margin-bottom: 80px;
+}
+.about a{
+	text-decoration: none;
+	color: #347a6a;	
+}
+.about a:hover{
+	color: white;	
+}
+.social-media{
+	width: 220px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	justify-content: center;
+}
+.social-media img{
+	margin: auto;
+}
+.social-media img:hover{
+	color: white;
+}
+.menu-icon{
+	display: none;
+}
+
+
+
+/***********************MEDIA 1300**************************/
+@media (max-width: 1300px){
+	.container-desing, .container-photo{
+		width: 100%;
+		height: auto;
+		padding-bottom: 60px;
+	}
+		
+}
+/***********************MEDIA 1220**************************/
+@media (max-width: 1220px){
+	.container-orange h1{
+		margin: 0;
+	}
+	.container-desing p, .container-photo p{
+		margin: 30px 150px 0px 150px;	
+	}
+}
+/***********************MEDIA 1128**************************/
+
+@media (max-width: 1128px){
+	.container-orange h1{		
+		font-size: 55px;	
+	}
+	.transform .container h2, .audience .container h2{		
+		font-size: 35px;
+	}	
+	.transform .container article, .audience .container article{
+		margin: auto;
+		margin-left: 90px;
+		margin-right: 90px;
+	}
+	.container-desing p, .container-photo p{
+		margin: 20px 120px 0px 120px;	
+	}
+	.container-desing, .container-photo{
+		height: 471px;	
+	}
+	.testimonials .container{
+		width: 85%;
+		margin: auto;	
+	}
+
+}
+/***********************MEDIA 950**************************/
+@media (max-width: 950px){
+	.transform .container p, .audience .container p{
+		padding-bottom: 30px;
+	}
+	.transform .container article, .audience .container article{
+		margin: auto;
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+	.container-desing p, .container-photo p{
+		margin: 20px 80px 0px 80px;	
+	}
+	.testimonials .container{
+		width: 95%;
+		margin: auto;	
+	}
+}
+/***********************MEDIA 850**************************/
+@media (max-width: 850px){
+	body{
+		font-size: 15px;
+	}
+	.container-orange h1 {
+	    font-size: 45px;
+	}
+	.transform .container h2, .audience .container h2 {
+	    font-size: 30px;
+	}
+	.transform .container p, .audience .container p {
+	    padding-bottom: 20px;
+	}
+	.transform .container a, .audience .container a {	    
+	    font-size: 16px;
+	}
+	.container-desing h3, .container-photo h3 {	    
+	    font-size: 25px;	    
+	}
+	.testimonials .title {
+	    font-size: 18px;
+	}
+	.testimonials .container h4 {	    
+	    font-size: 16px;	    
+	}
+}
+/***********************MEDIA 750**************************/
+@media (max-width: 750px){
+	body{
+		max-width: 750px;
+		font-size: 24px;
+	}
+	nav{
+		width: 95%;
+		position: absolute;
+		top: 90px;
+		margin: auto;
+		background-color: white;
+		display: none;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+	}
+	 nav:before {
+      content: "";
+      position: absolute;
+      right: 0px;
+      top: -26px;
+      width: 0;
+      height: 0;
+      border-top: 40px solid transparent;
+      border-right: 60px solid white;
+      border-bottom: 13px solid transparent;
+    }
+
+	.menu ul li{
+		margin: auto;
+		color: gray;		
+		line-height: 70px;
+	}
+	.menu ul{
+		flex-direction: column;
+		padding-left: 0px;
+	}
+	.btn-li{		
+		margin: 0px !important;	
+		background-color: hsl(51, 100%, 49%);	
+		border-radius: 60px;
+		padding: 3px 30px 3px 30px;
+	}
+	.btn-li:hover{
+		background-color: hsl(51, 100%, 49%);
+	}
+	.menu-icon{
+		display: block;
+		width: 30px !important;
+	}
+	/********SECTION ORANGE********/	
+	header{
+		max-width: 750px;
+		width: 100%;
+		height: 1076px;
+		background-image: url("../images/mobile/image-header.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+
+	.container-orange{
+		padding-top: 300px;
+	}
+	.container-orange h1 {
+		margin-bottom: 140px;
+		letter-spacing: 10px;
+		line-height: 70px;
+	    font-size: 60px;
+	}
+	/********SECTION TRANSFORM********/
+	.transform .container{
+		max-width: 750px;
+		display: block;
+	}
+	.desktop{
+		display: none;
+	}
+	.mobile{
+		max-width: 750px;
+		display: block;			
+		text-align: center;
+	}
+	.mobile-transform{
+		display: block;
+		max-width: 750px;
+		width: 100%;
+	}
+	.transform .container article{	
+		padding-top: 100px;
+		padding-bottom: 100px;	
+		height: 450px;
+		margin: auto;
+		margin-left: 150px;
+		margin-right: 150px;
+		text-align: center;		
+	}
+	.transform .container article h2{
+		font-size: 50px;
+	}
+
+	.transform .container article p{
+		line-height: 25px;
+	}
+	.transform .container a{		
+		font-size: 20px;
+	}
+	/********RIGHT AUDIENCE********/
+	.audience .container{
+		max-width: 750px;
+		display: block;
+	}	
+	.audience .container article{	
+		padding-top: 100px;
+		padding-bottom: 100px;	
+		height: 450px;
+		margin: auto;
+		margin-left: 150px;
+		margin-right: 150px;
+		text-align: center;		
+	}
+	.audience .container article h2{
+		font-size: 50px;
+	}
+	.audience .container article p{
+		line-height: 25px;
+	}
+	.audience .container a{		
+		font-size: 20px;
+	}
+	/********GRAPHIC DESIGN & PHOTOGRAPHY********/
+	.design-photo{
+		display: block;
+		max-width: 750px;
+	}
+	.container-desing{
+		max-width: 750px;
+		background-image: url("../images/mobile/image-graphic-design.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		display: flex;
+		align-items: end;
+		height: 1200px;
+		padding: 0px;
+	}
+	.container-photo{
+		max-width: 750px;
+		background-image: url("../images/mobile/image-photography.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		display: flex;
+		align-items: end;
+		height: 1200px;
+		padding: 0px;
+	}
+	.container-desing article, .container-photo article{
+		margin: 0px;	
+		padding-bottom: 200px;
+		text-align: center;
+	}
+	.container-desing article h3, .container-photo article h3{
+		font-size: 40px;
+		padding-bottom: 50px;
+	}
+	.container-desing p, .container-photo p{
+		margin: 30px 170px 0px 170px;	
+	}
+	/********CLIENTS TESTIMONIALS********/
+	.testimonials .container{
+		max-width: 750px;
+		width: 70%;
+		display: block;
+		margin: auto;	
+	}
+	.testimonials .container article{
+		padding-bottom: 80px;
+	}
+	.testimonials .container img{
+		width: 90px;	
+	}	
+	.testimonials .container h4{
+		font-size: 28px;		
+	}
+	.testimonials .container span{
+		font-size: 17px;
+		color: hsl(210, 4%, 67%);
+	}
+	/****COLLAGE****/
+	.collage .container{
+		max-width: 750px;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.collage .container img{
+		width: 100%;
+	}
+	/********FOOTER********/
+	footer{
+		max-width: 750px;
+	}
+	.about{
+		max-width: 600px;		
+	}
+}
+/***********************MEDIA 650**************************/
+@media (max-width: 650px){
+	header{
+		max-width: 650px;
+		height: 1040px;
+	}
+	.mobile{
+		max-width: 650px;
+	}
+	.transform .container article{			
+		margin: auto;
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+	.audience .container article{			
+		margin: auto;
+		margin-left: 100px;
+		margin-right: 100px;	
+	}
+	.container-desing p, .container-photo p{
+		margin: 30px 110px 0px 110px;	
+	}
+	.testimonials .container{	
+		max-width: 650px;	
+		width: 85%;			
+	}
+	footer{
+		max-width: 650px;
+	}
+	.about{
+		max-width: 550px;		
+	}
+}
+/***********************MEDIA 600**************************/
+@media (max-width: 600px){
+	body{
+		font-size: 20px;
+	}
+	header{
+		max-width: 600px;
+		height: 960px;
+	}
+	.menu ul li{		
+		line-height: 50px;
+		font-size: 16px;
+	}
+	.mobile{
+		max-width: 600px;
+	}
+	.transform .container article{			
+		margin: auto;
+		margin-left: 90px;
+		margin-right: 90px;
+	}
+	.transform .container article h2{			
+		font-size: 45px;
+	}
+	.audience .container article{			
+		margin: auto;
+		margin-left: 90px;
+		margin-right: 90px;	
+	}
+	.audience .container article h2{			
+		font-size: 45px;
+	}
+	.transform .container p, .audience .container p {
+	    padding-bottom: 40px;
+	}
+	.container-desing article, .container-photo article{
+		padding-bottom: 100px;
+	}
+	.container-desing p, .container-photo p{
+		margin: 0px 90px 0px 90px;	
+	}
+	.container-desing{
+		max-width: 600px;
+		height: 960px;		
+	}
+	.container-photo{
+		max-width: 600px;	
+		height: 960px;	
+	}
+	.testimonials .container{	
+		max-width: 600px;	
+		width: 85%;			
+	}
+	.testimonials .container h4{		
+		font-size: 25px;			
+	}
+	footer{
+		max-width: 600px;
+	}
+	.about{
+		max-width: 500px;		
+	}
+}
+/***********************MEDIA 500**************************/
+@media (max-width: 500px){
+	body{
+		max-width: 500px;
+		font-size: 16px;
+	}
+	header{
+		max-width: 500px;
+		height: 800px;
+	}
+	.container-orange{
+		padding-top: 150px;
+	}
+	.container-orange h1 {	    
+	    font-size: 50px;
+	}
+	.transform .container article h2 {
+	    font-size: 40px;
+	}
+	.audience .container article h2 {
+	    font-size: 40px;
+	}
+	.mobile{
+		max-width: 500px;
+	}
+	.transform .container article{			
+		margin: auto;
+		margin-left: 70px;
+		margin-right: 70px;
+	}
+	.audience .container article{			
+		margin: auto;
+		margin-left: 70px;
+		margin-right: 70px;	
+	}
+	.container-desing{
+		max-width: 500px;
+		height: 800px;		
+	}
+	.container-photo{
+		max-width: 500px;
+		height: 800px;		
+	}	
+	.container-desing article h3, .container-photo article h3 {
+	    font-size: 35px;
+	    padding-bottom: 30px;
+	}
+	.testimonials .container{
+		max-width: 500px;		
+		width: 70%;			
+	}
+	.testimonials .container p{		
+		margin-top: 40px;
+		margin-bottom: 40px;			
+	}
+	.testimonials .container h4 {
+	    font-size: 20px;
+	}
+	footer{
+		max-width: 500px;
+	}	
+	.about{
+		max-width: 450px;		
+	}
+}
+/***********************MEDIA 420**************************/
+@media (max-width: 420px){
+	body{
+		max-width: 420px;
+		font-size: 15px;
+	}
+	header{
+		max-width: 420px;
+		height: 672px;
+	}
+	.container-orange{
+		padding-top: 150px;
+	}
+	.container-orange h1{
+		font-size: 40px;
+		margin-bottom: 40px;
+	}
+	.transform .container article{	
+		padding-top: 60px;
+		padding-bottom: 60px;	
+		height: 380px;
+		margin: auto;
+		margin-left: 35px;
+		margin-right: 35px;
+		text-align: center;		
+	}
+	.transform .container article h2{
+		font-size: 30px;	
+	}
+	.mobile{
+		max-width: 420px;
+	}
+	.audience .container article{	
+		padding-top: 60px;
+		padding-bottom: 60px;	
+		height: 380px;
+		margin: auto;
+		margin-left: 35px;
+		margin-right: 35px;
+		text-align: center;		
+	}
+	.audience .container article h2{
+		font-size: 30px;	
+	}
+	.container-desing{
+		max-width: 420px;
+		height: 672px;
+	}
+	.container-desing article h3{
+		font-size: 25px;
+	}
+	.container-photo{
+		max-width: 420px;
+		height: 672px;
+	}
+	.container-photo article h3{
+		font-size: 25px;
+	}
+	.container-desing p, .container-photo p{
+		margin: 20px 30px 0px 30px;	
+	}
+	.testimonials .container h4 {
+	    font-size: 18px;
+	}
+	.testimonials .container span{
+		font-size: 13px;
+	}
+	.title{
+		font-size: 17px !important;
+	}
+	.testimonials .container{
+		max-width: 420px;
+		width: 85%;
+	}
+	footer{
+		max-width: 420px;
+	}
+	.about{
+		max-width: 350px;		
+	}
+	.social-media{
+		max-width: 250px;
+	}
+}
+/***********************MEDIA 375**************************/
+@media (max-width: 375px){
+	body{
+		max-width: 375px;
+		font-size: 13px;
+	}
+	header{
+		max-width: 375px;
+		height: 600px;
+	}
+	.container-orange{
+		padding-top: 120px;
+	}
+	.container-orange h1{
+		font-size: 30px;
+		margin-bottom: 40px;
+	}
+	.transform .container article{	
+		padding-top: 60px;
+		padding-bottom: 60px;	
+		height: 320px;
+		margin: auto;
+		margin-left: 35px;
+		margin-right: 35px;
+		text-align: center;		
+	}
+	.transform .container article h2{
+		font-size: 25px;	
+	}
+	.transform .container a, .audience .container a{		
+		font-size: 17px;
+	}
+	.mobile{
+		max-width: 375px;
+	}
+	.audience .container article{	
+		padding-top: 60px;
+		padding-bottom: 60px;	
+		height: 320px;
+		margin: auto;
+		margin-left: 35px;
+		margin-right: 35px;
+		text-align: center;		
+	}
+	.audience .container article h2{
+		font-size: 25px;	
+	}
+	.container-desing{
+		max-width: 375px;
+		height: 600px;
+	}
+	.container-desing article h3{
+		font-size: 25px;
+	}
+	.container-photo{
+		max-width: 375px;
+		height: 600px;
+	}
+	.container-photo article h3{
+		font-size: 25px;
+	}
+	.container-desing p, .container-photo p{
+		margin: 10px 30px 0px 30px;	
+	}
+	.testimonials .container h4 {
+	    font-size: 15px;
+	}
+	.testimonials .container span{
+		font-size: 13px;
+	}
+	.title{
+		font-size: 14px !important;
+	}
+	.testimonials .container{
+		max-width: 375px;
+		width: 85%;
+	}
+	footer{
+		max-width: 375px;
+	}
+	.about{
+		max-width: 300px;		
+	}
+	.social-media{
+		max-width: 180px;
+	}
+}
